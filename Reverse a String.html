@@ -1,0 +1,21 @@
+<script>
+var x=window.prompt("Enter a String");
+y="";
+a=x.split(" ");
+a.forEach(function(item){
+b=item.split("").reverse().join("");
+y=y.concat(" "+b);
+});
+console.log("Reversed String is: "+ y);
+
+
+
+/* var x=window.prompt("Enter a String");
+a=x.split(" ");
+b=a[0].split("").reverse().join("");
+c=a[1].split("").reverse().join("");
+y=b.concat(" "+c);
+console.log("Reversed String is: "+ y); */
+
+
+</script>
