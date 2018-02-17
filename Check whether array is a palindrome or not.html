@@ -1,0 +1,28 @@
+<script>
+
+var x=[1,2,3,2,1];
+y=x.reduce(function(counter,item){counter.unshift(item);
+return counter;
+},[]);
+console.log(x);
+console.log(y);
+a=x.join();
+b=y.join();
+if(a===b){
+console.log("array is a palindrome");
+}
+else{
+console.log("array is not a palindrome");
+}
+
+
+
+/*
+var x=window.prompt("Enter a String");
+a=x.split("");
+b=a.reverse();
+c=b.join("");
+console.log("Reversed String is: "+c);
+*/
+
+</script>
